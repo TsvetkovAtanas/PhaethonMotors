@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Aether",
+        "fuel": "Gasoline",
+        "fuel2": "",
+        "img": "aether_img.png",
+        "subModels": [
+            { "name": "Aether GT", "fuel": "Gasoline", "img": "aether_gt_img.png" },
+            { "name": "Aether RSX", "fuel": "Gasoline", "img": "aether_rsx_img.png" },
+            { "name": "Aether Spyder", "fuel": "Gasoline", "img": "aether_img.png" }
+        ]
+    },
+    {
+        "name": "Hyperion",
+        "fuel": "Gasoline",
+        "fuel2": "",
+        "img": "hyperion_img.png",
+        "subModels": [
+            { "name": "Hyperion S", "fuel": "Gasoline", "img": "hyperion_img.png" },
+            { "name": "Hyperion L", "fuel": "Gasoline", "img": "hyperion_img.png" },
+            { "name": "Hyperion VT", "fuel": "Gasoline", "img": "hyperion_img.png" }
+        ]
+    },
+    {
+        "name": "Helios",
+        "fuel": "Hybrid",
+        "fuel2": "Gasoline",
+        "img": "helios_img.png",
+        "subModels": [
+            { "name": "Helios R", "fuel": "Hybrid", "img": "helios_img.png" },
+            { "name": "Helios GTS", "fuel": "Gasoline", "img": "helios_img.png" },
+            { "name": "Helios VX12", "fuel": "Gasoline", "img": "helios_img.png" }
+        ]
+    },
+    {
+        "name": "Imperium",
+        "fuel": "Hybrid",
+        "fuel2": "Gasoline",
+        "img": "imperium_img.png",
+        "subModels": [
+            { "name": "Imperium Royale", "fuel": "Hybrid", "img": "imperium_img.png" },
+            { "name": "Imperium Veloce", "fuel": "Gasoline", "img": "imperium_img.png" },
+            { "name": "Imperium Opus Luxe", "fuel": "Gasoline", "img": "imperium_img.png" },
+            { "name": "Imperium Phantom", "fuel": "Hybrid", "img": "imperium_img.png" }
+        ]
+    },
+    {
+        "name": "Titanus",
+        "fuel": "Electric",
+        "fuel2": "Gasoline",
+        "img": "titanus_img.png",
+        "subModels": [
+            { "name": "Titanus X-Trail", "fuel": "Gasoline", "img": "titanus_img.png" },
+            { "name": "Titanus Aero", "fuel": "Electric", "img": "titanus_img.png" },
+            { "name": "Titanus LX", "fuel": "Electric", "img": "titanus_img.png" },
+            { "name": "Titanus Apex", "fuel": "Gasoline", "img": "titanus_img.png" }
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+.login-section {
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+}
+
+.login-background {
+    width: 80%;
+    padding: 3%;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    /* clip-path: path("M 10,50 L 90,50 L 100,40 L 100,10 L 110,0 L 1480,0 L 1490,10 L 1490,400 L 1480,450 L 10,450 L 0,400 L 0,60 L 10,50 Z"); */
+    display: flex;
+    gap: 25px;
+}
+
+.log-left {
+    width: 100%;
+    text-align: center;
+}
+
+.log-left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+}
+
+.log-right {
+    width: 100%;
+}
+
+.log-right h1 {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+}
+
+.log-right p {
+    font-size: 1rem;
+}
+
+.log-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 2% 0;
+}
+
+.log-right form .names {
+    display: flex;
+    gap: 4px;
+}
+
+.log-right form input {
+    width: 100%;
+    padding: 2%;
+    border-radius: 8px;
+    font-size: 1rem;
+    border-color: transparent;
+    color: black;
+    background-color: var(--primary-color);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.log-right form input:hover {
+    box-shadow: 1px 1px 4px black;
+}
+
+.log-right form button {
+    width: 100%;
+    padding: 2%;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    border-color: transparent;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    background-color: var(--primary-color);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.log-right form button:hover {
+    box-shadow: 1px 1px 4px black;
+    cursor: pointer;
+}
+
+.log-right button {
+    width: 100%;
+    padding: 2%;
+    border-radius: 8px;
+    border-width: 1px;
+    font-size: 1.1rem;
+    border-color: transparent;
+    color: black;
+    border-color: black;
+    background-color: var(--primary-color);
+    transition: box-shadow 0.2s ease-in-out;
+}
+.log-right  button:hover {
+    box-shadow: 1px 1px 4px black;
+    cursor: pointer;
+}
+
+
+.log-right .log-pp {
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    position: relative;
+}
+
+.log-right .log-pp::before {
+    content: "";
+    position: absolute;
+    width: 38%;;
+    height: 1%;
+    top: 50%;
+    left: 0;
+    background-color: black;
+}
+
+.log-right .log-pp::after {
+    content: "";
+    position: absolute;
+    width: 38%;
+    height: 1%;
+    top: 50%;
+    left: 62%;
+    background-color: black;
+}
+.log-right p span {
+    cursor: pointer;
+    text-decoration: underline;
+    font-style: italic;
+}

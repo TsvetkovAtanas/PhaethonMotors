@@ -1,0 +1,47 @@
+.footer-page {
+    background-color: black;
+    color: var(--primary-color);
+    font-family: var(--text-font);
+}
+
+.footer-page h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--heading-font);
+    margin: 0% 0 5% 0;
+    padding-top: 3%;
+}
+
+.contacts {
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.footer-info {
+    margin: 2% 2.5%;
+}
+
+.footer-info h2 {
+    font-size: 1.7rem;
+}
+
+.footer-info p{
+    margin-bottom: 8%; 
+}
+
+.footer-info .fi-btn{
+    width: 60%;
+    padding: 6%;
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.footer-info i {
+    margin-right: 3%;
+    color: var(--primary-color);
+    font-size: 2.1rem;
+}

@@ -1,0 +1,7 @@
+wwwroot\assets\aether_gt.jpg
+wwwroot\assets\aether_rsx.jpg
+wwwroot\assets\phaethon-model-1-final.png
+wwwroot\assets\phaethon-model-2.png
+wwwroot\assets\phaethon-model-3.png
+wwwroot\assets\phaethon-model-4.png
+wwwroot\assets\phaethon-model-5.png

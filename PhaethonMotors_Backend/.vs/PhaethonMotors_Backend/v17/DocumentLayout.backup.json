@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\dtos\\carmodelsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\dtos\\carmodelsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\repository\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\repository\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\repository\\carmodelsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\repository\\carmodelsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\controllers\\carmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\controllers\\carmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\customizedcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\customizedcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\submodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\submodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\services\\carmodelsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\services\\carmodelsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\models\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\models\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\data\\phaethondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\data\\phaethondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|c:\\programming\\forportfolio\\phaethonmotors_backend\\phaethonmotors_backend\\repository\\initialseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF921806-0395-49A3-BB64-93D16B8BD20E}|PhaethonMotors_Backend\\PhaethonMotors_Backend.csproj|solutionrelative:phaethonmotors_backend\\repository\\initialseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\appsettings.json",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\appsettings.json",
+              "RelativeToolTip": "PhaethonMotors_Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T17:00:19.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FeatureController.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\FeatureController.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Controllers\\FeatureController.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\FeatureController.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Controllers\\FeatureController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:59:53.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\Enums\\Roles.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\Enums\\Roles.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\Enums\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:53:51.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Repository\\UserProfileRepository.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\UserProfileRepository.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Repository\\UserProfileRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:47:03.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Services\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Services\\UserProfileService.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Services\\UserProfileService.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Services\\UserProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:46:33.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T13:33:13.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T09:37:25.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Repository\\AuthRepository.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Repository\\AuthRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T09:34:36.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Services\\AuthService.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Services\\AuthService.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Services\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T09:34:22.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T09:28:26.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomizedCar.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\CustomizedCar.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\CustomizedCar.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\CustomizedCar.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\CustomizedCar.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvx0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:31:48.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\User.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\User.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:20:35.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarModelsController.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\CarModelsController.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Controllers\\CarModelsController.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Controllers\\CarModelsController.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Controllers\\CarModelsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:38:26.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarModelsService.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Services\\CarModelsService.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Services\\CarModelsService.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Services\\CarModelsService.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Services\\CarModelsService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:32:07.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarModelsDtos.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\DTOs\\CarModelsDtos.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\DTOs\\CarModelsDtos.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\DTOs\\CarModelsDtos.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\DTOs\\CarModelsDtos.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:25:43.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarModelsRepository.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\CarModelsRepository.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Repository\\CarModelsRepository.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\CarModelsRepository.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Repository\\CarModelsRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwGcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T12:25:33.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InitialSeed.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\InitialSeed.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Repository\\InitialSeed.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Repository\\InitialSeed.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Repository\\InitialSeed.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwNYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:48:05.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\CarModel.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\CarModel.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\CarModel.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\CarModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:44:21.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PhaethonDbContext.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Data\\PhaethonDbContext.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Data\\PhaethonDbContext.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Data\\PhaethonDbContext.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Data\\PhaethonDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:42:25.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubModel.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\SubModel.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Models\\SubModel.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Models\\SubModel.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Models\\SubModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:20:53.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Program.cs",
+              "RelativeDocumentMoniker": "PhaethonMotors_Backend\\Program.cs",
+              "ToolTip": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\Program.cs",
+              "RelativeToolTip": "PhaethonMotors_Backend\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwFQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:33:23.03Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

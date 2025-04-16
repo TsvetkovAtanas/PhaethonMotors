@@ -1,0 +1,743 @@
+{
+  "Version": 1,
+  "Hash": "QpqQ8ljRfpB8W9YrEEXhMnCdMxTvGtyW0u7vWSPd4Y4=",
+  "Source": "PhaethonMotors_Backend",
+  "BasePath": "_content/PhaethonMotors_Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PhaethonMotors_Backend\\wwwroot",
+      "Source": "PhaethonMotors_Backend",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\aether_gt.jpg",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/aether_gt#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qjkhtnk00x",
+      "Integrity": "ukR2ZRYwE2Te8yTdQAOES3mabHB7VUf2OnsHhlysQcg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\aether_gt.jpg"
+    },
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\aether_rsx.jpg",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/aether_rsx#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jesprk8rm1",
+      "Integrity": "9ZhRlnAUWNjNqgeKrz9r7fd+XNtViZIn22Ixai6Od3U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\aether_rsx.jpg"
+    },
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-1-final.png",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/phaethon-model-1-final#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0p0ew4uc8i",
+      "Integrity": "BIu3makdhMgRwWYW1tbxaKdZ036rkagvLp1jOKe4yIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\phaethon-model-1-final.png"
+    },
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-2.png",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/phaethon-model-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "el2w7jn5j7",
+      "Integrity": "3ucKT5VhtinjeMcsfm9f5VguxTfzw/R+76yX/tkFSDY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\phaethon-model-2.png"
+    },
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-3.png",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/phaethon-model-3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hhdtsecs6l",
+      "Integrity": "e8KqOOW5STfw8qRpJPGsmvaNVRQnVgLEMNXiQu+3iJE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\phaethon-model-3.png"
+    },
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-4.png",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/phaethon-model-4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlm5wk75oo",
+      "Integrity": "Vl4KtMCRJpyeCAxlWHUsH7OOIGwkjvJizIpbppOdCHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\phaethon-model-4.png"
+    },
+    {
+      "Identity": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-5.png",
+      "SourceId": "PhaethonMotors_Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\",
+      "BasePath": "_content/PhaethonMotors_Backend",
+      "RelativePath": "assets/phaethon-model-5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pp18fzdhr8",
+      "Integrity": "raX7i4GCzMxSwB8U52rScRiMxB8JaG0pXqqikZjwopY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\phaethon-model-5.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/aether_gt.jpg",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\aether_gt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukR2ZRYwE2Te8yTdQAOES3mabHB7VUf2OnsHhlysQcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 18:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukR2ZRYwE2Te8yTdQAOES3mabHB7VUf2OnsHhlysQcg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/aether_gt.qjkhtnk00x.jpg",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\aether_gt.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukR2ZRYwE2Te8yTdQAOES3mabHB7VUf2OnsHhlysQcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 18:42:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qjkhtnk00x"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/aether_gt.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukR2ZRYwE2Te8yTdQAOES3mabHB7VUf2OnsHhlysQcg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/aether_rsx.jesprk8rm1.jpg",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\aether_rsx.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZhRlnAUWNjNqgeKrz9r7fd+XNtViZIn22Ixai6Od3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 18:47:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jesprk8rm1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/aether_rsx.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZhRlnAUWNjNqgeKrz9r7fd+XNtViZIn22Ixai6Od3U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/aether_rsx.jpg",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\aether_rsx.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZhRlnAUWNjNqgeKrz9r7fd+XNtViZIn22Ixai6Od3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 18:47:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZhRlnAUWNjNqgeKrz9r7fd+XNtViZIn22Ixai6Od3U="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-1-final.0p0ew4uc8i.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-1-final.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BIu3makdhMgRwWYW1tbxaKdZ036rkagvLp1jOKe4yIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 13:21:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0p0ew4uc8i"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/phaethon-model-1-final.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BIu3makdhMgRwWYW1tbxaKdZ036rkagvLp1jOKe4yIo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-1-final.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-1-final.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BIu3makdhMgRwWYW1tbxaKdZ036rkagvLp1jOKe4yIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 13:21:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BIu3makdhMgRwWYW1tbxaKdZ036rkagvLp1jOKe4yIo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-2.el2w7jn5j7.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ucKT5VhtinjeMcsfm9f5VguxTfzw/R+76yX/tkFSDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 21:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "el2w7jn5j7"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/phaethon-model-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ucKT5VhtinjeMcsfm9f5VguxTfzw/R+76yX/tkFSDY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-2.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ucKT5VhtinjeMcsfm9f5VguxTfzw/R+76yX/tkFSDY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 21:52:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ucKT5VhtinjeMcsfm9f5VguxTfzw/R+76yX/tkFSDY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-3.hhdtsecs6l.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e8KqOOW5STfw8qRpJPGsmvaNVRQnVgLEMNXiQu+3iJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 22:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhdtsecs6l"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/phaethon-model-3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e8KqOOW5STfw8qRpJPGsmvaNVRQnVgLEMNXiQu+3iJE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-3.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "184191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e8KqOOW5STfw8qRpJPGsmvaNVRQnVgLEMNXiQu+3iJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 22:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e8KqOOW5STfw8qRpJPGsmvaNVRQnVgLEMNXiQu+3iJE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-4.mlm5wk75oo.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vl4KtMCRJpyeCAxlWHUsH7OOIGwkjvJizIpbppOdCHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 22:17:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlm5wk75oo"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/phaethon-model-4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vl4KtMCRJpyeCAxlWHUsH7OOIGwkjvJizIpbppOdCHE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-4.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vl4KtMCRJpyeCAxlWHUsH7OOIGwkjvJizIpbppOdCHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 22:17:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vl4KtMCRJpyeCAxlWHUsH7OOIGwkjvJizIpbppOdCHE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-5.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"raX7i4GCzMxSwB8U52rScRiMxB8JaG0pXqqikZjwopY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 22:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-raX7i4GCzMxSwB8U52rScRiMxB8JaG0pXqqikZjwopY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/phaethon-model-5.pp18fzdhr8.png",
+      "AssetFile": "C:\\PROGRAMMING\\ForPortfolio\\PhaethonMotors_Backend\\PhaethonMotors_Backend\\wwwroot\\assets\\phaethon-model-5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"raX7i4GCzMxSwB8U52rScRiMxB8JaG0pXqqikZjwopY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 22:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pp18fzdhr8"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/phaethon-model-5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-raX7i4GCzMxSwB8U52rScRiMxB8JaG0pXqqikZjwopY="
+        }
+      ]
+    }
+  ]
+}

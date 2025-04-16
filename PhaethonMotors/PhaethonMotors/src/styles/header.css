@@ -1,0 +1,343 @@
+header {
+    position: relative;
+    width: 100%;
+}
+
+.header-white {
+    .login-btn,
+    .login-btn a,
+    .name-logo,
+    .name-logo a,
+    .menu-btn {
+        color: var(--primary-color);
+    }
+}
+.header-black {
+    .login-btn,
+    .login-btn a,
+    .name-logo,
+    .name-logo a,
+    .menu-btn {
+        color: black;
+    }
+}
+
+.header-elemets {
+    display: grid;
+    grid-template: "left center right";
+    gap: 0;
+    width: 100%;
+    padding-top: 1%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.name-logo {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    padding-right: 5%;
+}
+
+.name-logo a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.login-btn {
+    color: var(--primary-color);
+    width: 150%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login-btn a {
+    color: var(--primary-color);
+}
+
+.menu-btn {
+    background: transparent;
+    color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.main {
+    width: 35%;
+    left: 0;
+    padding: 0;
+    transform: translateX(-100%);
+}
+
+.sidebar.main.open {
+    transform: translateX(0);
+}
+
+.sidebar.main nav ul {
+    list-style: none;
+    padding: 0 2%;
+    margin-top: 25%;
+    margin-bottom: 15%; 
+}
+
+.sidebar.main nav ul li {
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar.main nav ul li{
+    color: black;
+    text-decoration: none;
+    text-align: start;
+    margin: 10px 10px;
+    font-size: 1.7rem;
+    font-family: var(--text-font);
+    cursor: pointer;
+}
+
+.sidebar.main nav ul li:hover {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.sidebar.sub {
+    width: 35%;
+    left: 35%;
+    padding-right: 8px;
+    transform: translateX(-230%);
+    background-color: var(--secondary-color);
+}
+
+.sidebar.sub.open {
+    transform: translateX(0);
+}
+
+.close-btn-main {
+    display: none;
+    font-size: 24px;
+    font-size: 2rem;
+    color: black;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    padding: 0.5% 1%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close-btn-sub {
+    font-size: 2rem;
+    color: black;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    padding: 0.5% 2%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close-btn-sub:hover {
+    background-color: var(--primary-color);
+}
+.close-btn-main:hover {
+    background-color: var(--secondary-color);
+}
+
+.sidebar.sub nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5%;
+}
+
+.sidebar.sub nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.car-model {
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5% 0;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.car-model:hover {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.car-model img {
+    width: 300px;
+    margin: 5% 0;
+    transition: transform 0.3s ease;
+}
+
+.car-model:hover img {
+    transform: translateX(10px);
+}
+
+.car-model h2 {
+    text-align: start;
+    margin: 0 0 0 30px;
+    border-radius: 8px;
+    padding-top: 10px;
+    font-family: var(--text-font);
+}
+
+.car-model h4 {
+    text-align: center;
+    margin: 0 0 0 5px;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    width: 25%;
+    font-family: var(--text-font);
+    background-color: var(--primary-color);
+}
+
+.car-model:hover h4 {
+    background-color: var(--secondary-color);
+}
+
+.sidebar.sub nav ul {
+    margin-top: 20%;
+}
+
+.ul-nested {
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.ul-nested li {
+    text-align: start;
+    margin-bottom: 5%;
+}
+
+.ul-nested li a {
+    color: black;
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-size: 1.3rem;
+    transition: padding 0.1s ease-in-out;
+}
+
+.ul-nested li a:hover {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.ul-link {
+    color: black;
+    text-decoration: none;
+    text-align: start;
+    margin: 10px 10px;
+    font-size: 1.7rem;
+    font-family: var(--text-font);
+    cursor: pointer;
+    margin: 0;
+}
+
+.ul-nested .btn-place {
+    display: flex;
+    margin-bottom: 2.5%;
+}
+
+.ul-nested button {
+    background-color: black;
+    font-family: var(--text-font);
+    font-size: 1rem;
+    padding: 3%;
+    margin-bottom: 2.5%;
+    margin-right: 1%;
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ul-nested button:hover {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.fuel {
+    display: flex;
+    margin-left: 25px;
+}
+
+.hero-text h1 {
+    position: absolute;
+    color: var(--primary-color);
+    z-index: 0;
+    top: 50%;
+    left: 10%;
+    width: 40%;
+    font-family: var(--text-font);
+    font-size: 3.5rem;
+}
+
+.models-info-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.models-info-buttons button{
+    width: 80%;
+    padding: 3%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.models-info-buttons button:hover{
+    background-color: var(--primary-color);
+}
+
+.back-btn {
+    width: 90%;
+    padding: 3%;
+    margin-top: 1%;
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+    background-color: var(--secondary-color);
+}

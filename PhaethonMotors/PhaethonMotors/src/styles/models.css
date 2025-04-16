@@ -1,0 +1,112 @@
+.cars .h1 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    font-size: 4rem;
+    font-family: var(--heading-font);
+}
+
+.models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    z-index: 0;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+.card .header,
+.card .footer {
+    position: relative;
+    z-index: 1;
+}
+
+.card .header h2,
+.card .header p,
+.card .footer button {
+    font-family: var(--text-font);
+}
+
+.card .footer {
+    margin-top: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.card .footer button {
+    margin-top: 2%;
+    padding: 4%;
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card .footer button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card .header h1 {
+    font-size: 2.5rem;
+    font-family: var(--heading-font);
+}
+
+.models a {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    width: 35%;
+    border-radius: 15px;
+    margin: 1%;
+    overflow: hidden;
+    color: white;
+    transition: translate 0.3s ease-in-out;
+}
+
+.models a:hover {
+    translate: 0 -10px;
+}
+
+.card .header .fueltype p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    width: 15%;
+    font-family: var(--text-font);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.fueltype {
+    display: flex;
+}
+
+.fueltype p {
+    margin-right: 5px !important;
+}

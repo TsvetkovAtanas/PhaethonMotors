@@ -1,0 +1,1359 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PhaethonMotors_Backend",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CarModels/dto": {
+      "get": {
+        "tags": [
+          "CarModels"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarModelDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarModelDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarModelDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CarModels/{carModelID}": {
+      "get": {
+        "tags": [
+          "CarModels"
+        ],
+        "parameters": [
+          {
+            "name": "carModelID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CarModels/sub": {
+      "get": {
+        "tags": [
+          "CarModels"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SubModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SubModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SubModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Color": {
+      "get": {
+        "tags": [
+          "Color"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ColorOption"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ColorOption"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ColorOption"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Color/{ColorOptionID}": {
+      "get": {
+        "tags": [
+          "Color"
+        ],
+        "parameters": [
+          {
+            "name": "ColorOptionID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ColorOption"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ColorOption"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ColorOption"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Feature": {
+      "get": {
+        "tags": [
+          "Feature"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeatureOption"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeatureOption"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/FeatureOption"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Feature/{FeatureOptionID}": {
+      "get": {
+        "tags": [
+          "Feature"
+        ],
+        "parameters": [
+          {
+            "name": "FeatureOptionID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/FeatureOption"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FeatureOption"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FeatureOption"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Interior": {
+      "get": {
+        "tags": [
+          "Interior"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InteriorOption"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InteriorOption"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InteriorOption"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Interior/{InteriorOptionID}": {
+      "get": {
+        "tags": [
+          "Interior"
+        ],
+        "parameters": [
+          {
+            "name": "InteriorOptionID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/InteriorOption"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InteriorOption"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InteriorOption"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Trim": {
+      "get": {
+        "tags": [
+          "Trim"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrimOption"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrimOption"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrimOption"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Trim/{TrimOptionID}": {
+      "get": {
+        "tags": [
+          "Trim"
+        ],
+        "parameters": [
+          {
+            "name": "TrimOptionID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TrimOption"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TrimOption"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TrimOption"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profile": {
+      "get": {
+        "tags": [
+          "UserProfile"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/profile/custom": {
+      "post": {
+        "tags": [
+          "UserProfile"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomizedCarDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomizedCarDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomizedCarDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Wheel": {
+      "get": {
+        "tags": [
+          "Wheel"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WheelOption"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WheelOption"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WheelOption"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Wheel/{WheelOptionID}": {
+      "get": {
+        "tags": [
+          "Wheel"
+        ],
+        "parameters": [
+          {
+            "name": "WheelOptionID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WheelOption"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WheelOption"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WheelOption"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CarModel": {
+        "required": [
+          "acceleration",
+          "basePrice",
+          "cargoSpace",
+          "carImage",
+          "driveType",
+          "fuelType1",
+          "fuelType2",
+          "horsepower",
+          "name",
+          "seatingCapacity",
+          "topSpeed",
+          "torque",
+          "transmission"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "fuelType1": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "fuelType2": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "carImage": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "basePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "horsepower": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "torque": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "topSpeed": {
+            "type": "number",
+            "format": "double"
+          },
+          "acceleration": {
+            "type": "number",
+            "format": "double"
+          },
+          "seatingCapacity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cargoSpace": {
+            "type": "number",
+            "format": "double"
+          },
+          "transmission": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "driveType": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "colorOptionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorOption": {
+            "$ref": "#/components/schemas/ColorOption"
+          },
+          "interiorOptionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "interiorOption": {
+            "$ref": "#/components/schemas/InteriorOption"
+          },
+          "trimOptionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "trimOption": {
+            "$ref": "#/components/schemas/TrimOption"
+          },
+          "wheelOptionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "wheelOption": {
+            "$ref": "#/components/schemas/WheelOption"
+          },
+          "subModelId": {
+            "type": "string",
+            "nullable": true
+          },
+          "subModel": {
+            "$ref": "#/components/schemas/SubModel"
+          },
+          "featureOptions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FeatureOption"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarModelDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "fuelType1": {
+            "type": "string",
+            "nullable": true
+          },
+          "fuelType2": {
+            "type": "string",
+            "nullable": true
+          },
+          "carImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "basePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "horsepower": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "torque": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "topSpeed": {
+            "type": "number",
+            "format": "double"
+          },
+          "acceleration": {
+            "type": "number",
+            "format": "double"
+          },
+          "seatingCapacity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cargoSpace": {
+            "type": "number",
+            "format": "double"
+          },
+          "transmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "driveType": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorOption": {
+            "$ref": "#/components/schemas/ColorOptionDto"
+          },
+          "interiorOption": {
+            "$ref": "#/components/schemas/InteriorOptionDto"
+          },
+          "trimOption": {
+            "$ref": "#/components/schemas/TrimOptionDto"
+          },
+          "wheelOption": {
+            "$ref": "#/components/schemas/WheelOptionDto"
+          },
+          "subModel": {
+            "$ref": "#/components/schemas/SubModelDto"
+          },
+          "featureOptions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FeatureOptionDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ColorOption": {
+        "required": [
+          "hexCode",
+          "name",
+          "price"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "hexCode": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "carModels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ColorOptionDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "hexCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomizedCar": {
+        "required": [
+          "carModelId",
+          "selectedColorId",
+          "selectedFeaturesIds",
+          "selectedInteriorId",
+          "selectedTrimId",
+          "selectedWheelsId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "carModelId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "selectedColorId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "selectedInteriorId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "selectedWheelsId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "selectedTrimId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "selectedFeaturesIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sketchModelUID": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "savedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomizedCarDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "carModelId": {
+            "type": "string",
+            "nullable": true
+          },
+          "selectedColorId": {
+            "type": "string",
+            "nullable": true
+          },
+          "selectedInteriorId": {
+            "type": "string",
+            "nullable": true
+          },
+          "selectedWheelsId": {
+            "type": "string",
+            "nullable": true
+          },
+          "selectedTrimId": {
+            "type": "string",
+            "nullable": true
+          },
+          "selectedFeaturesIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "sketchModelUID": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "savedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FeatureOption": {
+        "required": [
+          "name",
+          "price"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "carModels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FeatureOptionDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InteriorOption": {
+        "required": [
+          "material",
+          "name",
+          "price"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "material": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "carModels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InteriorOptionDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "material": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterDto": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Roles": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "SubModel": {
+        "required": [
+          "name",
+          "priceIncreace"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "priceIncreace": {
+            "type": "number",
+            "format": "double"
+          },
+          "carModels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SubModelDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceIncreace": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TrimOption": {
+        "required": [
+          "horsepowerIncrease",
+          "name",
+          "priceIncrease",
+          "suspension"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "priceIncrease": {
+            "type": "number",
+            "format": "double"
+          },
+          "horsepowerIncrease": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "suspension": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "carModels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TrimOptionDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceIncrease": {
+            "type": "number",
+            "format": "double"
+          },
+          "horsepowerIncrease": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "suspension": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "required": [
+          "email",
+          "firstName",
+          "lastName",
+          "passwordHash",
+          "role"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "passwordHash": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "role": {
+            "$ref": "#/components/schemas/Roles"
+          },
+          "customizedCars": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomizedCar"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WheelOption": {
+        "required": [
+          "name",
+          "price"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "carModels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CarModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WheelOptionDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
